@@ -5,7 +5,7 @@ execute as @e[name="second",limit=1] at @e[name="second",limit=1] run fill ~-9 ~
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-3 ~ ~4 ~3 ~7 ~4 air replace stone_bricks 
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-3 ~ ~-1 ~3 ~7 ~-1 air replace stone_bricks
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:westunit
-execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:southunit 
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:northunit 
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:eastunit
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:entrance_importstation_north
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall_lightning
