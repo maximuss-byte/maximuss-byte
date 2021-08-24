@@ -7,6 +7,6 @@ execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-3 ~ ~
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:westunit
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:southunit 
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:eastunit
-execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:entrance_importstation_east
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:entrance_importstation_south
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall_lightning
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall
