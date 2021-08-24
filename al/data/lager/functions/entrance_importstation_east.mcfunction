@@ -1,4 +1,4 @@
-execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-4 ~ ~-3 stone_brick_stairs[facing=north,half=bottom] 
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-4 ~ ~-3 stone_brick_stairs[facing=north,half=bottom]
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~1 ~ ~-3 stone_brick_stairs[facing=north,half=bottom] 
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-4 ~ ~3 stone_brick_stairs[facing=south,half=bottom] 
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~1 ~ ~3 stone_brick_stairs[facing=south,half=bottom] 
@@ -27,6 +27,6 @@ execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-5
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-5 ~7 ~4 stone_bricks
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-5 ~7 ~-3 stone_brick_stairs[facing=north,half=top]
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-5 ~7 ~3 stone_brick_stairs[facing=south,half=top]
-execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-5 ~8 ~-3 ~5 ~8 ~3 stone_bricks
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-5 ~8 ~-3 ~-5 ~8 ~3 stone_bricks
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-4 ~ ~-5 ~-4 ~3 ~-5 stone_bricks
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-4 ~ ~5 ~-4 ~3 ~5 stone_bricks
