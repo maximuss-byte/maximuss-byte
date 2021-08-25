@@ -17,5 +17,5 @@ execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~-9 ~7 ~-1 stone_brick_stairs[facing=north, half=top]
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~-9 ~7 ~1 stone_brick_stairs[facing=south, half=top]
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~-9 ~7 ~ stone_brick_slab[type=top]
-execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~-9 ~ ~ structure_block{"name":"lager:chestunit", "mode":"LOAD", "rotation":"CLOCKWISE_90", "posX":-11, "posZ":1}
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~-9 ~ ~ structure_block{"name":"lager:chestunit", "mode":"LOAD", "rotation":"CLOCKWISE_90", "posX":-1, "posZ":-11}
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run setblock ~-9 ~-1 ~ redstone_block
