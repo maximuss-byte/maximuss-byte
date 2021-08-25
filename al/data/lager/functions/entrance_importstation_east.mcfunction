@@ -30,3 +30,11 @@ execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-5
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-5 ~8 ~-3 ~-5 ~8 ~3 stone_bricks
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-4 ~ ~-5 ~-4 ~3 ~-5 stone_bricks
 execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~-4 ~ ~5 ~-4 ~3 ~5 stone_bricks
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-1 ~ ~3 chest[facing=north]
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-2 ~ ~3 chest[facing=north, type=left] 
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-1 ~ ~-3 chest[facing=south] 
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-2 ~ ~-3 chest[facing=south, type=right] 
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~ ~ ~3 ender_chest[facing=north]
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~ ~ ~-3 crafting_table
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-3 ~ ~-3 smithing_table
+execute as @e[name="first",limit=1] at @e[name="first",limit=1] run setblock ~-3 ~ ~3 anvil[facing=west]

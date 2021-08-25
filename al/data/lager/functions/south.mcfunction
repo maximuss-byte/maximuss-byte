@@ -7,6 +7,8 @@ execute as @e[name="first",limit=1] at @e[name="first",limit=1] run fill ~3 ~ ~1
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:westunit
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:southunit 
 execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:eastunit
-# execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:entrance_importstation_south
-# execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall_lightning
-# execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run fill ~9 ~ ~10 ~12 ~11 ~12 air
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run fill ~-10 ~ ~9 ~-12 ~11 ~11 air
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:entrance_importstation_south
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall_lightning
+execute as @e[name="second",limit=1] at @e[name="second",limit=1] run function lager:mall
